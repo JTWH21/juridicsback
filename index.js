@@ -11,5 +11,6 @@ app.use(express.json());
 app.use('/api/clients', clientsRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Servidor iniciado en http://localhost:${PORT}`);
+  console.log(`Servidor iniciado en http://0.0.0.0:${PORT}`); // O simplemente: 
+  // console.log(`Servidor iniciado en el puerto ${PORT}`);
 });

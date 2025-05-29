@@ -21,7 +21,7 @@ router.delete('/:clientId', deleteClient);      // ✅ eliminar cliente
 router.put('/:clientId', updateClient);         // ✅ editar cliente
 router.get('/:clientId/family', getClientFamily);
 router.delete('/:clientId/relatives/:relativeId', deleteRelative);   // ✅ eliminar relación
-router.put('/:clientId/relatives', updateRelative);
+router.put('/:clientId/relatives/relativeId', updateRelative);
 
 
 
